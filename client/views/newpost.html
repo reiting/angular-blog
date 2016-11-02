@@ -1,0 +1,11 @@
+
+<!--have inputs here for author, content, title-->
+<!--use ng-model-->
+
+<div>
+    <input type="text" ng-model="blog.author" placeholder="What's your name?">
+    <input type="text" ng-model="blog.title" placeholder="What's your title?">
+    <input type="text" ng-model="blog.content" placeholder="What's your message?">
+</div>
+
+<button ng-click="savePost()">Post</button>
